@@ -22,9 +22,9 @@ useSeoMeta({
     { charset: "utf-8" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
     {
-      hid: "description",
-      name: "description",
-      content: siteMetaInfo.description,
+      hid: "Portfolio Micaela Alarcón",
+      name: "Portfolio Micaela Alarcón",
+      content: "Algunos de los proyectos que he desarrollado, aplicando habilidades en análisis de datos, programación y visualización para resolver problemas reales y prácticos.",
     },
   ],
   link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

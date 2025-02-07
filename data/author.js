@@ -1,97 +1,134 @@
-// Backend Expertise
-import NodeIcon from "assets/devicon/node.svg?component";
-import LaravelIcon from "assets/devicon/laravel.svg?component";
-// Frontend Expertise
-import VueIcon from "assets/devicon/vuejs.svg?component";
-import NuxtIcon from "assets/devicon/nuxt.svg?component";
-import BootstrapIcon from "assets/devicon/bootstrap.svg?component";
-import JavascriptIcon from "assets/devicon/javascript.svg?component";
-import TailwindCssIcon from "assets/devicon/tailwindcss.svg?component";
+// Habilidades tecnicas
+import Python from "assets/devicon/python.svg?component"; 
+import Pandas from "assets/devicon/pandas.svg?component"; 
+import NumPy from "assets/devicon/numpy.svg?component"; 
+import Matplotlib from "assets/devicon/matplotlib.svg?component"; 
+import Tableau from "assets/devicon/tableau.svg?component"; 
+import Excel from "assets/devicon/excel.svg?component"; 
+import SQL from "assets/devicon/sql.svg?component"; 
+import GoogleColab from "assets/devicon/google-colab.svg?component"; 
+import Jupyter from "assets/devicon/jupyter.svg?component"; 
+import PowerBi from "assets/devicon/power-bi.svg?component"; 
+
 // Timeline
-import Home from "assets/icons/home.svg?component";
 import Academy from "assets/icons/academy.svg?component";
 
 const author = {
-    author_image: "/author.png",
-    name: "Md Solaiman",
-    position: "Full Stack Developer",
-    email: "hello@rathik.dev",
-    location: "Dhaka, Bangladesh",
-    github: "mdrathik",
+    author_image: "/profile.jpg",
+    name: "Micaela Alarcón",
+    position: "DATA ANALYST",
+    email: "alarcondata@gmail.com",
+    location: "Rosario, Argentina",
+    github: "bethmicaela",
     socials: {
-        twitter: "MDRT83716131",
-        stackoverflow: "#",
-        youtube: "#",
-        linkedin: "#",
-        facebook: "#",
+        linkedin: "https://www.linkedin.com/in/micaela-elizabeth-alarcon/",
     },
     expertises: {
-        "Frontend": [
+        "Habilidades técnicas": [
             {
-                name: "Bootstrap",
-                icon: BootstrapIcon,
-                description: "",
+                name: "Python",
+                icon: Python,
+                description: "Python",
             },
             {
-                name: "Tailwind",
-                icon: TailwindCssIcon,
-                description: "",
+                name: "Pandas",
+                icon: Pandas,
+                description: "Pandas",
             },
             {
-                name: "Javascript",
-                icon: JavascriptIcon,
-                description: "",
+                name: "NumPy",
+                icon: NumPy,
+                description: "Numpy",
             },
             {
-                name: "VueJS",
-                icon: VueIcon,
-                description: "",
+                name: "Matplotlib",
+                icon: Matplotlib,
+                description: "Matplotlib",
             },
             {
-                name: "Nuxt 3",
-                icon: NuxtIcon,
-                description: "",
-            }
-        ],
-        "Backend": [
-            {
-                name: "Laravel",
-                icon: LaravelIcon,
-                description: "",
+                name: "Tableau",
+                icon: Tableau,
+                description: "Tableau",
             },
             {
-                name: "NodeJs",
-                icon: NodeIcon,
-                description: "",
-            }
+                name: "Excel",
+                icon: Excel,
+                description: "Excel",
+            },
+            {
+                name: "SQL",
+                icon: SQL,
+                description: "SQL",
+            },
+            {
+                name: "Google colab",
+                icon: GoogleColab,
+                description: "Google colab",
+            },
+            {
+                name: "Jupyter Notebooks",
+                icon: Jupyter,
+                description: "Jupyter Notebooks",
+            },
+            {
+                name: "Power Bi",
+                icon: PowerBi,
+                description: "Power Bi",
+            },
         ]
     },
     timeline: [
         {
             icon: Academy,
-            currently: true,
-            title: "Software Engineer at FANG",
-            subtitle: "2018-Currently",
-            description: "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.",
+            title: "Carrera de Ciencia de Datos",
+            subtitle: "2023-presente",
+            description: "Platzi",
+            subcourses: [
+                {
+                    title: "Programación",
+                    description: "Dominio de fundamentos de programación con JavaScript, HTML y algoritmos para desarrollar proyectos web desde cero.", 
+                },
+                {
+                    title: "Git y GitHub",
+                    description: "Gestion de repositorios, ramas y conflictos con Git, y GitHub para alojar proyectos, manejar issues y realizar pull requests.", 
+                },
+                {
+                    title: "Análisis de Negocios para Ciencia de Datos",
+                    description: "Aplicación de técnicas de análisis de negocios para interpretar datos, generar insights y tomar decisiones estratégicas en proyectos de ciencia de datos.",
+                },
+                {
+                    title: "Business Intelligence: Utilidad y Áreas de Oportunidad",
+                    description: "Exploración de herramientas y conceptos de Business Intelligence para identificar áreas de oportunidad y optimizar la toma de decisiones estratégicas.",
+                },
+                {
+                    title: "Entorno de Trabajo para Ciencia de Datos con Jupyter Notebooks y Anaconda",
+                    description: "Configuración y uso de Jupyter Notebooks y Anaconda para desarrollar proyectos de ciencia de datos, incluyendo análisis, visualización y gestión de entornos virtuales.",
+                },
+                {
+                    title: "Fundamentos de Bases de Datos",
+                    description: "Introducción a los conceptos esenciales de bases de datos, modelado relacional, consultas SQL y gestión eficiente de datos.",
+                },
+                {
+                    title: "Manipulación y Análisis de Datos con Pandas y Python",
+                    description: "Dominio de técnicas avanzadas de manipulación y análisis de datos utilizando Pandas y Python para limpiar, transformar y explorar conjuntos de datos de manera eficiente.",
+                },
+                {
+                    title: "Ética y Manejo de Datos para Data Science e Inteligencia Artificial",
+                    description: "Aplicación de principios éticos en el manejo de datos para crear modelos de machine learning responsables y transparentes.",
+                },
+            ],
         },
         {
             icon: Academy,
-            title: "Freelancer",
-            subtitle: "Released on December 7th, 2021",
-            description: "All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.",
+            title: "Bootcamp de Ciencia de Datos",
+            subtitle: "2024",
+            description: "Código Facilito",
+            subcourses: [
+                {
+                    description: "Fundamentos de estadística, EDA, manipulación de datos con NumPy y Pandas, visualización avanzada, dashboards interactivos, machine learning y proyecto práctico de ciencia de datos. Uso ético de datos y Git.",
+                },
+            ],
         },
-        {
-            icon: Academy,
-            title: "2013 - Dhaka University ",
-            subtitle: "2013 - 2018",
-            description: "Studied \"BSC in Computer Science and Engineering\" in Dhaka University.",
-        },
-        {
-            icon: Home,
-            title: "Born in 1996, July 27",
-            subtitle: "Dhaka Bangladesh",
-            description: "I couldn't remember any productive work in that time. But",
-        }
     ],
 };
 

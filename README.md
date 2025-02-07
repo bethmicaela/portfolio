@@ -1,39 +1,34 @@
 # NuxtJs Tailwind Blog
 
-This is a nuxtjs, Tailwind CSS blogging template. Its supported Markdown for blog
-![Drag Racing](thumbnail.png)
+¡Hola! Soy Micaela Alarcon, Analista de Datos en formación, apasionada por descubrir información valiosa y transformar datos en decisiones estratégicas. A través de mi aprendizaje y proyectos personales, he desarrollado habilidades en análisis, visualización y manejo de datos.
 
-# Examples/Demo
+Este proyecto forma parte de mi portafolio, y representa mi interés en explorar soluciones tecnológicas modernas y bien diseñadas. Estoy en búsqueda de oportunidades para formar parte de un equipo que valore la curiosidad y el impacto de los datos, mientras continúo aprendiendo y creciendo como profesional.
 
-- [Demo blog - This repo](https://nuxt-tailwind-blog.netlify.app)
 
-## Build Setup
+# Descripción del Proyecto
+
+Esta es una plantilla de blogs construida con NuxtJs y Tailwind CSS, compatible con Markdown para gestionar contenido.
+
+# Demostración
+
+- [Blog de demostración: este repositorio](https://nuxt-tailwind-blog.netlify.app)
+
+## Configuración Inicial
 
 ```bash
-# install dependencies
+# Instalar dependencias
 $ npm install
 
-# serve with hot reload at localhost:3000
+# Servir con recarga en vivo en localhost:3000  
 $ npm run dev
 
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+Para más detalles sobre cómo funciona el proyecto, consulta la [documentación oficial de Nuxt](https://nuxtjs.org).
 
-<a href="https://www.buymeacoffee.com/mdrathik" target="_blank"
-    ><img
-      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      alt="Buy Me A Coffee"
-      style="height: 60px !important; width: 217px !important"
-  /></a>
+## Créditos
 
+Este proyecto fue desarrollado por [mdrathik](https://github.com/mdrathik)
+Si te gusta el proyecto, considera apoyar al autor invitándolo a un café: [Buy Me a Coffee](https://buymeacoffee.com/mdrathik)
 
-Inspired from [timlrx](https://github.com/timlrx/tailwind-nextjs-starter-blog) nextJs Blog
-## Spacial Thanks to :
-
-i made the design inspired from them.
-[ansango](https://github.com/ansango/resume) , [einargudni](https://www.einargudni.com/projects) , [leohuynh](https://www.leohuynh.dev)
-
-# Licence
-
-This project can be modified, edited and whatever you want to do. But i wish that you would love to contribute
+Inspirado en [timlrx](https://github.com/timlrx/tailwind-nextjs-starter-blog)
