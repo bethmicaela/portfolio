@@ -22,6 +22,26 @@
         <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
           {{ time.description }}
         </p>
+        <ul v-if="time.subcourses" class="ml-6 list-disc">
+          <li
+            v-for="(subcourse, index) in time.subcourses"
+            :key="index"
+            class="mb-2"
+          >
+            <h4 class="font-medium text-gray-700 dark:text-gray-300">
+              {{ subcourse.title }}
+            </h4>
+            <time
+              v-if="subcourse.completionDate"
+              class="block text-sm text-gray-500 dark:text-gray-400"
+            >
+              {{ subcourse.completionDate }}
+            </time>
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+              {{ subcourse.description }}
+            </p>
+          </li>
+        </ul>
       </li>
     </ol>
   </div>
